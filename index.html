@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f5f2eb" />
+  <title>Rep Club — better together</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Rep Club home"><span class="brand-icon">R</span><span>rep club<span class="brand-dot">.</span></span></a>
+      <div class="top-note"><span class="live-dot"></span> THE THREE OF US · SINCE DAY ONE</div>
+      <button class="outline-button" id="share-button" type="button"><span>↗</span> Share the club</button>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <div class="eyebrow"><span>✳</span> YOUR LITTLE CORNER OF THE GYM</div>
+          <h1>Show up.<br><span>Have fun.</span><br>Get stronger.</h1>
+          <p>Three friends, one gym, zero excuses to go alone.<br>Let’s make this a thing.</p>
+          <div class="hero-actions"><button class="primary-button" id="plan-workout" type="button">Plan a workout <span>↗</span></button><span class="tiny-note">Your future self says thanks.</span></div>
+        </div>
+        <div class="hero-art" aria-label="Illustration of three friends lifting weights">
+          <div class="sun-disc"></div><div class="art-spark spark-one">✳</div><div class="art-spark spark-two">✦</div>
+          <div class="art-label">GOOD THINGS<br>HAPPEN HERE <span>↘</span></div>
+          <svg class="friends" viewBox="0 0 540 380" role="img" aria-hidden="true">
+            <path d="M43 348h450" stroke="#24251f" stroke-width="2" opacity=".25"/>
+            <path d="M92 347c3-46 4-81 22-103 13-16 39-19 55-4 18 17 21 52 24 107M351 347c4-58 9-91 28-107 18-15 46-12 59 6 15 20 18 61 20 101" fill="#a6b86d" stroke="#24251f" stroke-width="3" stroke-linejoin="round"/>
+            <path d="M88 348h111M350 348h112" stroke="#24251f" stroke-width="3"/>
+            <path d="M132 239c-2 34 2 60 11 89h44l-9-82M384 242l-5 87h48l11-79" fill="#262821"/>
+            <path d="M139 323l-7 25h30l6-25M417 322l9 26h30l-10-27" fill="#ed7958"/>
+            <path d="M196 347c6-44 9-99 30-123 18-20 51-23 75-10 25 13 31 74 40 133" fill="#e77d5c" stroke="#24251f" stroke-width="3"/>
+            <path d="M211 269c24 23 57 29 93 14l11 64h-91z" fill="#f0c468"/>
+            <path d="M210 347h136" stroke="#24251f" stroke-width="3"/>
+            <path d="M225 220c-3-34 15-56 41-58 31-2 48 20 46 52-1 29-19 46-45 44-23-2-40-16-42-38" fill="#a9603e" stroke="#24251f" stroke-width="3"/>
+            <path d="M221 207c0-36 16-59 44-62 24-3 44 10 49 35-17-3-27-12-34-23-9 16-31 26-59 24" fill="#272721"/>
+            <path d="M236 218h2M270 218h2" stroke="#24251f" stroke-width="4" stroke-linecap="round"/><path d="M247 234c6 5 14 5 20-1" fill="none" stroke="#753a2b" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M104 200c-7-31 9-58 34-62 29-4 48 17 47 47-1 30-15 48-40 48-23 0-36-12-41-33" fill="#f0bc91" stroke="#24251f" stroke-width="3"/>
+            <path d="M101 190c-5-31 9-62 35-67 24-5 44 8 53 31-22-3-32-9-43-21-6 23-20 37-45 41" fill="#252620"/>
+            <path d="M126 197h2M158 196h2" stroke="#24251f" stroke-width="4" stroke-linecap="round"/><path d="M135 213c5 4 11 4 17 0" fill="none" stroke="#753a2b" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M358 200c-5-30 9-53 34-56 27-3 45 15 46 44 1 27-13 45-37 46-24 1-39-13-43-34" fill="#d18b62" stroke="#24251f" stroke-width="3"/>
+            <path d="M357 189c-1-32 15-56 42-58 23-2 39 10 44 32-19-3-32-10-42-22-7 20-19 33-44 38" fill="#302925"/>
+            <path d="M375 198h2M406 197h2" stroke="#24251f" stroke-width="4" stroke-linecap="round"/><path d="M383 216c6 5 13 4 18-1" fill="none" stroke="#753a2b" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M69 144h72M398 116h75" stroke="#262821" stroke-width="5" stroke-linecap="round"/><path d="M89 128v33M123 128v33M419 100v33M452 100v33" stroke="#262821" stroke-width="9" stroke-linecap="round"/>
+            <path d="M284 112v36M268 130h32" stroke="#262821" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+          <div class="art-caption"><span>01 / 03</span><span>BEST WHEN WE GO TOGETHER</span></div>
+        </div>
+      </section>
+
+      <section class="dashboard" id="dashboard">
+        <div class="section-heading"><div><div class="eyebrow">THE PLAN, THE PEOPLE, THE PROGRESS</div><h2>This week at the club<span>.</span></h2></div><button class="text-button" id="today-button" type="button">Jump to today <span>↓</span></button></div>
+        <div class="dashboard-grid">
+          <section class="card calendar-card">
+            <div class="card-heading"><div><div class="card-kicker">PICK A DAY, ANY DAY</div><h3>Our calendar</h3></div><div class="month-switch"><button id="prev-month" aria-label="Previous month">←</button><span id="month-label"></span><button id="next-month" aria-label="Next month">→</button></div></div>
+            <div class="calendar-weekdays"><span>MON</span><span>TUE</span><span>WED</span><span>THU</span><span>FRI</span><span>SAT</span><span>SUN</span></div>
+            <div class="calendar-grid" id="calendar-grid"></div>
+            <div class="calendar-legend"><span><i class="legend-dot planned"></i> planned</span><span><i class="legend-dot done"></i> we went!</span><span class="calendar-hint">Tap a day to add a workout</span></div>
+          </section>
+          <aside class="side-column">
+            <section class="card crew-card"><div class="card-heading"><div><div class="card-kicker">YOUR GYM BUDDIES</div><h3>The crew <span class="count-pill">03</span></h3></div><button class="icon-button" id="edit-crew" aria-label="Edit friend names">✎</button></div><div id="crew-list" class="crew-list"></div><div class="crew-footer"><span><i class="live-dot"></i> ALL IN THIS TOGETHER</span><button class="text-button" id="edit-names">Edit names ↗</button></div></section>
+            <section class="card goal-card"><div class="goal-top"><div><div class="card-kicker">OUR LITTLE CHALLENGE</div><h3>3 sessions<br>this week<span>.</span></h3></div><div class="goal-icon">✳</div></div><div class="goal-progress"><div class="progress-meta"><span id="goal-count">0 of 3 sessions</span><span id="goal-percent">0%</span></div><div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div></div><p id="goal-message">Every visit counts. Let’s get moving!</p></section>
+          </aside>
+        </div>
+      </section>
+      <section class="bottom-strip"><div class="strip-star">✳</div><p>THE GOAL IS TO <span>KEEP SHOWING UP.</span><br>EVERYTHING ELSE IS A BONUS.</p><div class="strip-right">MADE FOR THE DAYS<br>YOU NEED A NUDGE <span>↗</span></div></section>
+    </main>
+    <footer><a class="brand footer-brand" href="#top"><span class="brand-icon">R</span><span>rep club<span class="brand-dot">.</span></span></a><span>YOUR FIRST REP IS JUST SHOWING UP.</span><span>EST. THIS WEEK <span class="footer-star">✳</span></span></footer>
+  </div>
+  <dialog id="workout-dialog"><form method="dialog" id="workout-form"><button class="dialog-close" aria-label="Close">×</button><div class="eyebrow">GET THE GANG TOGETHER</div><h2>Plan a workout<span>.</span></h2><label>Which day?<input type="date" id="workout-date" required></label><label>What’s the vibe?<select id="workout-type"><option>Full body</option><option>Leg day</option><option>Upper body</option><option>Cardio & core</option><option>Just showing up</option></select></label><div class="dialog-actions"><button class="outline-button" value="cancel">Maybe later</button><button class="primary-button" id="save-workout" value="default">Let’s go <span>↗</span></button></div></form></dialog>
+  <dialog id="names-dialog"><form method="dialog" id="names-form"><button class="dialog-close" aria-label="Close">×</button><div class="eyebrow">MAKE IT YOURS</div><h2>Who’s in the crew<span>?</span></h2><label>Friend one<input id="name-1" maxlength="16" required></label><label>Friend two<input id="name-2" maxlength="16" required></label><label>Friend three<input id="name-3" maxlength="16" required></label><div class="dialog-actions"><button class="outline-button" value="cancel">Cancel</button><button class="primary-button" id="save-names" value="default">Save names <span>↗</span></button></div></form></dialog>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>
